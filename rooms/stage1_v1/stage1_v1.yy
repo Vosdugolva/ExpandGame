@@ -101,6 +101,7 @@
             {"properties":[
                 {"propertyId":{"name":"Forcefield_Number","path":"objects/obj_ForceField/obj_ForceField.yy",},"objectId":{"name":"obj_ForceField","path":"objects/obj_ForceField/obj_ForceField.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
               ],"isDnd":false,"objectId":{"name":"obj_ff_tree","path":"objects/obj_ff_tree/obj_ff_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2160.0,"y":2160.0,"resourceVersion":"1.0","name":"inst_7B164624","tags":[],"resourceType":"GMRInstance",},
+            {"properties":[],"isDnd":false,"objectId":{"name":"obj_small_ant_1","path":"objects/obj_small_ant_1/obj_small_ant_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2192.0,"y":1952.0,"resourceVersion":"1.0","name":"inst_90FBB02","tags":[],"resourceType":"GMRInstance",},
           ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Actors","tags":[],"resourceType":"GMRInstanceLayer",},
       ],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"instances","tags":[],"resourceType":"GMRLayer",},
     {"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":336,"gridY":240,"layers":[
@@ -571,6 +572,7 @@
     {"name":"inst_25B48365","path":"rooms/Stage1_v1/Stage1_v1.yy",},
     {"name":"inst_5862B09A","path":"rooms/Stage1_v1/Stage1_v1.yy",},
     {"name":"inst_7B164624","path":"rooms/Stage1_v1/Stage1_v1.yy",},
+    {"name":"inst_90FBB02","path":"rooms/Stage1_v1/Stage1_v1.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
