@@ -1,0 +1,54 @@
+
+
+[+]Creating source objects for inheriting repeated code and variables
+
+[+]Game
+	[+]Dialogue system
+	[+]Stage Select
+	[+]Non-Combat maps
+
+[+]Collission system
+	[+]Refine to have case by case collisions between the following
+		[+]Map Geometry
+		[+]Player
+		[+]Enemies
+		[+]Projectiles
+		[+]Blockades
+
+[+]Player
+	[+]Implement mechanics to disable firing on specific maps
+	[+]Animation system
+		Create override for singular frame by frame animations
+	[+]implement health and damage system
+		[+]Mercy invincibility
+		[+]Game over state
+	
+[+]Projectiles
+	[+]Player projectiles
+		[+]system for piercing shots
+			[+]Shots that go through enemies and hit every set number of frames
+		[+]System for "Beams"
+		[+]System for homing projectiles that target the nearest enemy
+	[+]Enemy projectiles
+		[+]system for orbiting projectile patterns
+		[+]system for swirling projectile patterns
+		[+]system for homing projectiles
+		[+]system for projectiles that spawn other projectiles
+		[+]system for lobbed projectiles
+		
+	[+]Weapon system
+		Implement system for setting 2 weapons and swapping between them
+			with altfire	
+	
+	[+]Shaders
+		[+]Implement shaders for flashing effects
+		[+]Implement shaders for pallet changes
+		
+[+]Enemies
+	[+]System for jumping behavior
+		[+]may use a fake "Z Axis"
+		[+]Generate shadow while jumping
+	[+]Implement teleporting system
+	[+]Implement system for blocking player shots
+	
+	

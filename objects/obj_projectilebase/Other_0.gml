@@ -1,0 +1,1 @@
+if(InBounds && !Can_Go_OutofBounds){ShotDie(true);}

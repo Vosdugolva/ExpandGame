@@ -1,0 +1,1 @@
+ToSpawn = obj_EnemyLizard
