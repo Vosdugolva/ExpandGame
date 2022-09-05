@@ -271,9 +271,12 @@ if(!global.is_Loading)
 
 function RoomZoneHandler()
 {
-if (place_meeting(x,y,obj_RoomZone) && !global.is_Scrolling)
+	//instead of the player's coordinates, check the center of the camera
+	var _x = camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2);
+	var _y = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/2);
+if (place_meeting(_x,_y,obj_RoomZone) && !global.is_Scrolling)
 	{
-		var _inst = instance_place(x, y, obj_RoomZone);
+		var _inst = instance_place(_x, _y, obj_RoomZone);
 	if(global.activeRoom != _inst.roomZone_ID)
 		{
 			global.activeRoom = _inst.roomZone_ID;

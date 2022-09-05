@@ -27,9 +27,10 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"enemyStartDamage","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"objectId":{"name":"obj_SpawnerBase","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"value":"80","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"EnemyBurstDamage","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"objectId":{"name":"obj_SpawnerBase","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"value":"120","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"EnemyExpandCap","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"objectId":{"name":"obj_SpawnerBase","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"value":"160","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"EnemyBurstDamage","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"objectId":{"name":"obj_SpawnerBase","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"value":"140","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyStartDamage","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"objectId":{"name":"obj_SpawnerBase","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"value":"80","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Defense","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"objectId":{"name":"obj_SpawnerBase","path":"objects/obj_SpawnerBase/obj_SpawnerBase.yy",},"value":"0.6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Mapping",

@@ -109,8 +109,9 @@ function CheckIfOnScreen(_View = 0)
 
 function CheckIfInRoom()
 {
-	//if(RoomID = -1){return false;}
+	
 	var RoomID = global.activeRoom;
+	if(RoomID = -1){return false;}
 	var x1 = RoomID.x;
 	var y1 = RoomID.y;
 	var x2 = x1 + RoomID.sprite_width;
